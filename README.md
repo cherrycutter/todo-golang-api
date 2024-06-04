@@ -31,28 +31,28 @@ Follow these steps to install and run the application:
 The API endpoints for managing tasks are designed to follow RESTFUL principles:
 
 1. **Retrieve all todos**:
-    ```http
-    GET /todos
+    ```html
+    <span style="color:blue">GET</span> /todos
     ```
 
 2. **Create a new todo**:
-    ```http
-    POST /todos
+    ```html
+    <span style="color:green">POST</span> /todos
     ```
 
 3. **Retrieve a specific todo by its ID**:
-    ```http
-    GET /todos/:id
+    ```html
+    <span style="color:blue">GET</span> /todos/:id
     ```
 
 4. **Update a todo with the provided ID**:
-    ```http
-    PUT /todos/:id
+    ```html
+    <span style="color:orange">PATCH</span> /todos/:id
     ```
 
 5. **Delete a todo with the provided ID**:
-    ```http
-    DELETE /todos/:id
+    ```html
+    <span style="color:red">DELETE</span> /todos/:id
     ```
 
 ## License
