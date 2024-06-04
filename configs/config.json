@@ -1,0 +1,7 @@
+{
+  "DBHost": "db",
+  "DBPort": "5432",
+  "DBUser": "postgres",
+  "DBPass": "12345",
+  "DBName": "postgres"
+}
