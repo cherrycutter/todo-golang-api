@@ -37,22 +37,22 @@ The API endpoints for managing tasks are designed to follow RESTFUL principles:
 
 2. **Create a new todo**:
     ```http
-    POST /todos
+    POST /todo
     ```
 
 3. **Retrieve a specific todo by its ID**:
     ```http
-    GET /todos/:id
+    GET /todo/:id
     ```
 
 4. **Update todo fields with the provided ID**:
     ```http
-    PATCH /todos/:id
+    PATCH /todo/:id
     ```
 
 5. **Delete a todo with the provided ID**:
     ```http
-    DELETE /todos/:id
+    DELETE /todo/:id
     ```
 
 ## License
