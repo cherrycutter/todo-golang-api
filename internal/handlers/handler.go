@@ -20,10 +20,10 @@ func NewTodoHandler(service services.TodoService) *TodoHandler {
 
 func (h *TodoHandler) RegisterRoutes(router *gin.Engine) {
 	router.GET("/todos", h.GetTodos)
-	router.GET("/todos/:id", h.GetTodo)
-	router.POST("/todos", h.PostTodo)
-	router.PATCH("/todos/:id", h.UpdateTodo)
-	router.DELETE("/todos/:id", h.DeleteTodo)
+	router.GET("/todo/:id", h.GetTodo)
+	router.POST("/todo", h.PostTodo)
+	router.PATCH("/todo/:id", h.UpdateTodo)
+	router.DELETE("/todo/:id", h.DeleteTodo)
 }
 
 // GetTodos godoc
