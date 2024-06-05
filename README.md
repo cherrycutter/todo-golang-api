@@ -3,7 +3,7 @@
 ![Go](https://img.shields.io/badge/Go-1.22-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-This is a well-structured and documented GoLand application that implements a Todo App API. It provides features for managing tasks, including adding, retrieving, updating, and deleting them.
+This Todo API is designed to help users manage their tasks efficiently. This API allows you to create, read, update, and delete (CRUD) todo items. It is built using Go and Gin framework, ensuring high performance and reliability. The API follows RESTful principles, making it easy to integrate with other applications and services. Whether you are building a simple todo list application or a more complex task management system, this API provides the necessary functionality to manage your tasks effectively.
 
 ## Installation
 
